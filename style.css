@@ -1,0 +1,137 @@
+body,
+html {
+  background-color: #f3f3f3;
+  line-height: 1.5;
+  min-width: 290px;
+}
+
+code {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  display: block;
+  line-height: 2;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  white-space: pre;
+  word-break: normal;
+  word-wrap: normal;
+}
+
+header {
+  background-color: #f3f3f3;
+  font-size: 28px;
+  line-height: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
+#main-doc {
+  margin-bottom: 110px;
+  margin-left: 310px;
+  padding: 20px;
+  position: absolute;
+}
+
+#main-doc header {
+  margin: 0;
+  text-align: left;
+}
+
+#navbar {
+  border-right: 1px solid #ccc;
+  height: 100%;
+  left: 0;
+  margin-top: 10px;
+  min-width: 290px;
+  position: fixed !important;
+  top: 0;
+  width: 300px;
+}
+
+#navbar a {
+  cursor: pointer;
+}
+
+#navbar li {
+  border-bottom: 1px dotted #ccc;
+  left: -50px;
+  list-style-type: square !important;
+  padding-left: 35px;
+  position: relative;
+  width: 100%;
+}
+
+#navbar ul {
+  background-color: #f3f3f3;
+  height: 88%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+section article {
+  color: #444;
+  font-size: 0.96em;
+  margin: 15px;
+  margin-bottom: 35px;
+}
+
+section li {
+  margin: 15px 0 0 20px;
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    background-color: #f3f3f3;
+    border: none;
+    margin: 0;
+    max-height: 275px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #navbar ul {
+    border: 1px solid #ccc;
+    height: 207px;
+  }
+
+  #main-doc {
+    margin-left: 0;
+    margin-top: 270px;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 400px) {
+  code {
+    margin-left: -20px;
+    min-width: 233px;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    width: 100%;
+  }
+
+  #main-doc {
+    margin-left: -10px;
+  }
+}
+footer {
+  background-color: #f3f3f3;
+  border-top: 1px solid #ccc;
+  bottom: 0px;
+  color: black;
+  font-size: 5.5px;
+  height: 20px;
+  letter-spacing: 1.5px;
+  margin: 0;
+  margin-top: 5px;
+  padding: 5px;
+  position: fixed;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
